@@ -1,0 +1,60 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+}
+
+.left-nav > ul > li {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: inherit;
+}
+
+.right-nav > ul > li {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: inherit;
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+  font-size: 25px;
+}
+
+// .ico:after{
+//   content: '';
+//   display: block;
+//   height: 40px;  /*height of icon */
+//   width: 40px;  /*width of icon */
+//   position: absolute;
+//     /*where to replace the icon */
+//   top: 0px;
+//   left: -40px;
+//     /*background */
+//   background: #F8E6AE url(ico.gif) no-repeat 0px 0px;
+// }
